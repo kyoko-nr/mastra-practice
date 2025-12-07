@@ -3,7 +3,7 @@ import { mastra } from "../mastra/index";
 
 const app = new Hono();
 
-app.post("/osaka", async (c) => {
+app.post("/", async (c) => {
   const body = await c.req.json();
 
   // Slack URL verification challenge
