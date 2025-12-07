@@ -47,3 +47,4 @@ app.post("/osaka", async (c) => {
 });
 
 export default app;
+
