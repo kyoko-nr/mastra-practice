@@ -9,9 +9,7 @@
     "skipLibCheck": true,
     "noEmit": true,
     "verbatimModuleSyntax": true,
-    "types": [
-      "node"
-    ],
+    "types": ["node"],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
     "outDir": "./dist"
