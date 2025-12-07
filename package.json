@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "mastra dev --dir api/mastra",
-    "build": "mastra build --dir api/mastra",
+    "dev": "mastra dev",
+    "build": "mastra build",
     "start": "mastra start",
     "fix": "tsc --noEmit && npm run __lint && npm run __format",
     "__lint": "biome lint --write",

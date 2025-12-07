@@ -12,7 +12,12 @@
     "types": ["node"],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@ma": ["src/mastra/index"],
+      "@ma/*": ["src/mastra/*"]
+    }
   },
   "include": ["api/**/*", "src/mastra"],
   "exclude": ["node_modules"]
