@@ -2,7 +2,6 @@
   "name": "mastra-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "mastra:dev": "mastra dev --dir api/mastra",
     "mastra:build": "mastra build --dir api/mastra",
