@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import { handle } from "hono/vercel";
 import { mastra } from "../src/mastra/index";
 
 const app = new Hono();
@@ -48,4 +49,4 @@ app.post("/", async (c) => {
   return c.json({ ok: true });
 });
 
-export default app;
+export default handle(app);
