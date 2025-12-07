@@ -3,6 +3,8 @@ import { mastra } from "../mastra/index";
 
 const app = new Hono();
 
+app.get("/", (c) => c.text("hello"));
+
 app.post("/", async (c) => {
   const body = await c.req.json();
 
