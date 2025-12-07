@@ -14,6 +14,6 @@
     "jsxImportSource": "hono/jsx",
     "outDir": "./dist"
   },
-  "include": ["mastra/**/*", "api/**/*"],
+  "include": ["api/**/*"],
   "exclude": ["node_modules"]
 }
