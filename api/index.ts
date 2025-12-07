@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { mastra } from "@ma";
+import { mastra } from "../src/mastra/index";
 
 const app = new Hono();
 
