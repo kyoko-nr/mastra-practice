@@ -1,7 +1,6 @@
 {
   "functions": {
     "api/**/*.{ts,js}": {
-      "runtime": "nodejs22.x",
       "includeFiles": "src/mastra/**/*"
     }
   },
