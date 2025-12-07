@@ -10,6 +10,12 @@
     "enabled": true
   },
   "files": {
-    "includes": ["**", "!**/node_modules", "!**/.cursor", "!**/dist"]
+    "includes": [
+      "**",
+      "!**/node_modules",
+      "!**/.cursor",
+      "!**/dist",
+      "!**/.mastra"
+    ]
   }
 }
